@@ -7,7 +7,7 @@ Requests, Heroku, and Bokeh for visualization.
 The repository contains a basic template for a Flask configuration that will
 work on Heroku.
 
-A [finished example](https://lemurian.herokuapp.com) that demonstrates some basic functionality.
+A [finished example](http://testquantfy.herokuapp.com/index) that demonstrates some basic functionality.
 
 ## Step 1: Setup and deploy
 - Git clone the existing template repository.
@@ -20,7 +20,6 @@ A [finished example](https://lemurian.herokuapp.com) that demonstrates some basi
   If you choose not to, put all requirements into `requirements.txt`
 
   `heroku config:add BUILDPACK_URL=https://github.com/kennethreitz/conda-buildpack.git`
-- *Question*: What are the pros and cons of using conda vs. pip?
 - Deploy to Heroku: `git push heroku master`
 - You should be able to see your site at `https://<app_name>.herokuapp.com`
 - A useful reference is the Heroku [quickstart guide](https://devcenter.heroku.com/articles/getting-started-with-python-o).
